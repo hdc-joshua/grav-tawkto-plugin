@@ -1,0 +1,34 @@
+name: tawkto
+version: 1.0.0
+description: "Tawk.to plugin Grav website."
+icon: location-arrow
+author:
+  name: Joshua Hagan
+  email: joshua@hostdollarclub.com
+  url: https://hostdollarclub.com
+homepage: https://github.com/hdc-joshua/grav-tawkto-plugin/
+keywords: tawk, tawkto, live, chat, livechat
+bugs: https://github.com/hdc-joshua/grav-tawkto-plugin/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      hightlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    siteid:
+      type: text
+      size: medium
+      label: Site ID
+      placeholder: 0
+      help: Site ID can be found in Administration > Site > Property Settings, 
+     
