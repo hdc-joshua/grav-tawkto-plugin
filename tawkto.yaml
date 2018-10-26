@@ -1,2 +1,2 @@
 enabled: true       # global enable/disable the entire plugin
-siteid: ''      # can be found in the property settings in the admin dashboard of tawk.to
+siteId: ''      # can be found in the property settings in the admin dashboard of tawk.to
